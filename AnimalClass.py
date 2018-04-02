@@ -44,7 +44,8 @@ class Dog(Animal):
 
 class Cat(Animal):
     """Cat is a child of animal"""
-        
+    def speak(self):
+        return "meow"
         
     # def add_numbers(x, y, z):
     #    a = x + y
@@ -60,7 +61,10 @@ whatHeSay = c.speak()
 print(whatHeSay)
 # or
 print(c.speak())
-
+b = Cat("fluffy")
+WhatIsaY = b.speak()
+print(WhatIsaY)
+print(b.speak())
 firstCat = Cat("fluffy")
 print(firstCat.name)
 # print(firstCat)
